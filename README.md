@@ -36,5 +36,5 @@ Se proporciona una carpeta llamada "Proyecto" donde se encuentran los archivos y
 
 Se proporciona una carpeta llamada "imagenes" como muestra del aspecto y funcionamiento del sitio.
 
-
+#
 ***<<<<<-- MUCHAS GRACIAS POR SU INTERES -->>>>>***
