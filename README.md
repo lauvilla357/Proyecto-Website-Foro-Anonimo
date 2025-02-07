@@ -30,7 +30,7 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 ### Carpeta Proyecto
 
-Se proporcionan los archivos y carpetas necesarias para el funcionamiento del sitio web.
+Se proporciona una carpeta llamada "Proyecto" donde se encuentran los archivos y folders necesarios para el funcionamiento del sitio web.
 
 ### Imágenes de Muestra
 
