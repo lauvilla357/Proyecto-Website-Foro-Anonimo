@@ -1,0 +1,253 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */ 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;600&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 3.2em;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 2.0em;
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #555;
+    text-align: left;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Formularios */
+form {
+    margin-bottom: 55px;
+    text-align: center;
+    width: 90%; 
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.3em;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    height: 240px;
+}
+
+button {
+    display: inline-block;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 12px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2980b9, #1f6392);
+    transform: scale(1.05);
+}
+
+/* Lista de conversaciones */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background: #e0f3f0;
+    margin: 12px 0;
+    padding: 18px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 1.1em;
+    color: #333;
+    text-align: left;
+}
+
+ul li:hover {
+    background: #e1e1e9;
+    transform: scale(1.02);
+}
+
+li {
+    width: auto;
+}
+
+.liconversa {
+    border-width: 1px;
+    border-style: solid;
+    border-color: steelblue;
+}
+
+/* Mensajes */
+.mensaje {
+    background: #cef0f1;
+    padding: 25px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Lucida Console', monospace;
+    font-size: 1.03em;
+    color: #444;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Colocar el contenido en columnas */
+    align-items: flex-start;
+}
+
+.contenido-mensaje {
+    margin-bottom: 10px;
+}
+
+.contenido-media {
+    margin-bottom: 10px;
+}
+
+.mensaje small {
+    margin-top: 12px;
+    color: #777;
+    font-size: 0.85em;
+}
+
+.limensajes {
+    margin: 40px;
+    width: auto;
+}
+
+/* Imágenes y videos en mensajes */
+.mensaje img, .mensaje video, .respuesta img, .respuesta video {
+    max-width: 250px;
+    max-height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+/* Estilo para las respuestas */
+.respuesta {
+    margin-left: 30px;
+    margin-top: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #3498db;
+    background: #f7f9fa;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Colocar el contenido en columnas */
+    align-items: flex-start;
+}
+
+.respuesta .contenido-mensaje,
+.respuesta .contenido-media {
+    margin-bottom: 10px;
+}
+
+/* Resaltar las respuestas en hover */
+.respuesta:hover {
+    background: #e2e8f0;
+}
+
+/* Estilo para volver al inicio */
+.back-link {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #3498db;
+}
+
+/* Estilo para imágenes y videos en tamaño completo cuando sea necesario */
+img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+video {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+}
