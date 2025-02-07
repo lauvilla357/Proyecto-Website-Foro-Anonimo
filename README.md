@@ -2,7 +2,7 @@
 
 ## Foro Anónimo
 
-!
+!(https://github.com/lauvilla357/mundos-e-remoto/blob/images/forum-thinking-4.png?raw=true)
 
 ### Objetivo
 Este proyecto fue creado como parte de un trabajo personal con el propósito de demostrar habilidades en el desarrollo web, utilizando PHP, bases de datos y herramientas como XAMPP para gestionar el entorno de desarrollo local. Además, se busca mostrar la capacidad de crear una plataforma funcional, optimizada y fácil de usar para la interacción anónima de los usuarios.
