@@ -32,4 +32,5 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 Se proporciona una carpeta llamada "imagenes" como muestra del aspecto y funcionamiento del sitio.
 
-*MUCHAS GRACIAS POR SU INTERES.*
+
+***<<<<<-- MUCHAS GRACIAS POR SU INTERES -->>>>>***
