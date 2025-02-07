@@ -28,4 +28,8 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 - **CSS:** Para la personalización del diseño y la apariencia visual del foro.
 - **HTML5:** Para la estructura básica del foro y la presentación de los contenidos.
 
-### Dashboard de Fotos
+### Imágenes de Muestra
+
+Se proporciona una carpeta llamada "imagenes" como muestra del aspecto y funcionamiento del sitio.
+
+*MUCHAS GRACIAS POR SU INTERES.*
